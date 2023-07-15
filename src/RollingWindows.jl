@@ -6,6 +6,7 @@ export sliding, hopping,
 include("support/typeconsts.jl")
 
 include("windows/vector.jl")
+include("windows/matrix.jl")
 
 #=
 include("windowing/sequence.jl")
