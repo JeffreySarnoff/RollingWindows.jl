@@ -4,7 +4,6 @@ moving 2D windows over a larger matrix
 
 =#
 
-
 struct RowCol{T<:Integer}
     row::T
     col::T
