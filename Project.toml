@@ -1,0 +1,26 @@
+name = "RollingWindows"
+uuid = "952213a8-216b-48c4-aef3-5fc1b40a9a36"
+keywords = ["Julia", "rolling", "windows", "data", "sequence", "statistics", "time series" ]
+desc = "apply functions through windows moving over data sequences"
+authors = ["Jeffrey Sarnoff and other contributors"]
+repo = "https://github.com/JeffreySarnoff/RollingWindows.jl.git"
+license = "MIT"
+version = "0.9.98"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
+VectorizedStatistics = "3b853605-1c98-4422-8364-4bd93ee0529e"
+
+[compat]
+StatsBase = "0.33, 0.34, 0.35, 0.36"
+Tables = "1.10"
+VectorizedStatistics = "0.5, 0.6, 0.7"
+julia = "1.9"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
