@@ -5,16 +5,7 @@ export sliding, hopping,
 
 include("support/typeconsts.jl")
 
-include("windows/vector.jl")
-
-#=
-include("windowing/sequence.jl")
-include("windowing/multisequence.jl")
-include("windowing/column.jl")
-include("windowing/mulitcolumn.jl")
-include("windowing/matrix.jl")
-include("windowing/mulitmatrix.jl")
-=#
+include("windows/matrix.jl")
 
 
 end  # RollingWindows
